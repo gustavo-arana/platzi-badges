@@ -1,7 +1,7 @@
 .Home {
   width: 100%;
   min-height: calc(100vh - 60px);
-  background: url('../../images/stars.svg'), #1B1B25;
+  background: url("../../images/stars.svg"), #1b1b25;
   background-repeat: repeat;
 
   color: #ffffff;
@@ -13,8 +13,36 @@
 .Home__col {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: right;
   align-items: center;
+}
+
+.Home_info {
+  color: #6f6e6f;
+  margin-bottom: 10px;
+}
+
+.Home__container {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+.Home__platziConf {
+  max-width: 300px;
+}
+
+.Home__astronauts {
+  max-width: 500px;
+}
+
+.Home__buttons {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 1rem;
 }
 
 @media screen and (min-width: 768px) {

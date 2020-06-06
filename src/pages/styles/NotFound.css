@@ -1,0 +1,21 @@
+.NotFound {
+  width: 100%;
+  min-height: calc(100vh - 60px);
+  background: url("../../images/stars.svg"), #1b1b25;
+  background-repeat: repeat;
+
+  color: #ffffff;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.NotFound h1 {
+  color: #98ca3f;
+}
+
+.NotFound__platziConf {
+  max-width: 300px;
+}
