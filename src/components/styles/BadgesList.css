@@ -1,13 +1,18 @@
-.BadgesList ul>li {
+.p {
+  margin: 0;
+}
+
+.BadgesList ul > li {
   margin-bottom: 1rem;
 }
 
 .BadgesListItem {
-  background: #FFFFFF;
+  background: #ffffff;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.23);
   border-radius: 5px;
   display: flex;
   padding: 1rem;
+  margin-bottom: 10px;
 }
 
 .BadgesListItem__avatar {
@@ -16,4 +21,15 @@
   margin-right: 0.5rem;
   width: 80px;
   height: 80px;
+}
+
+.BadgesListItem__twitter {
+  display: flex;
+  text-align: center;
+  color: #0e88e1;
+}
+
+.BadgesListItem__twitter img {
+  width: 1.5em;
+  margin-right: 5px;
 }
